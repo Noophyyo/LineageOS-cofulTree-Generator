@@ -34,7 +34,7 @@ jobs:
     if: github.event.repository.owner.id == github.event.sender.id
     runs-on: ubuntu-latest
     env:
-      GITHUB_TOKEN: ${{ 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 }}
+      GITHUB_TOKEN: ${{ secrets.LOS }}
       DU: ${{ github.event.inputs.DUMP_URL }}
       DB: ${{ github.event.inputs.DEVICE_BRAND}}
       DUB: ${{ github.event.inputs.DUMP_BRANCH }}
