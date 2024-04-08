@@ -6,19 +6,19 @@ on:
       DUMP_URL:
         description: 'Dump link'
         required: true
-        default: ''
+        default: 'https://gitgud.io/okbuddygsi-dumps/motorola/coful/'
       DUMP_BRANCH:
         description: 'Dump branch'
         required: true
-        default: ''
+        default: 'user-12-S3RWBS32.125-29-2-4-3-3c754f-release-keys'
       DEVICE_BRAND:
         description: 'motorola'
         required: true
-        default: ''
+        default: 'motorola'
       CODENAME:
         description: 'coful'
         required: true
-        default: ''
+        default: 'coful'
       GIT_NAME:
         description: 'GitHub account user name'
         required: true
@@ -34,7 +34,7 @@ jobs:
     if: github.event.repository.owner.id == github.event.sender.id
     runs-on: ubuntu-latest
     env:
-      GITHUB_TOKEN: ${{ secrets.LOS }}
+      GITHUB_TOKEN: ${{ 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 }}
       DU: ${{ github.event.inputs.DUMP_URL }}
       DB: ${{ github.event.inputs.DEVICE_BRAND}}
       DUB: ${{ github.event.inputs.DUMP_BRANCH }}
