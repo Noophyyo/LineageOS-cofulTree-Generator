@@ -12,21 +12,21 @@ on:
         required: true
         default: ''
       DEVICE_BRAND:
-        description: 'Device manufacturer'
+        description: 'motorola'
         required: true
         default: ''
       CODENAME:
-        description: 'Device codename'
+        description: 'coful'
         required: true
         default: ''
       GIT_NAME:
         description: 'GitHub account user name'
         required: true
-        default: ''
+        default: 'Swastik369'
       GIT_EMAIL:
         description: 'GitHub account email adress'
         required: true
-        default: ''
+        default: 'swastikpari123@gmail.com'
 
 jobs:
   build:
