@@ -10,7 +10,7 @@ on:
       DUMP_BRANCH:
         description: 'Dump branch'
         required: true
-        default: 'user-12-S3RWBS32.125-29-2-4-3-3c754f-release-keys'
+        default: 'S88051AA1-user-9-PKQ1.190319.001-eng.root.20201120.092029-release-keys'
       DEVICE_BRAND:
         description: 'oppo'
         required: true
