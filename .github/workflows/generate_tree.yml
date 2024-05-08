@@ -6,27 +6,27 @@ on:
       DUMP_URL:
         description: 'Dump link'
         required: true
-        default: 'https://gitgud.io/okbuddygsi-dumps/motorola/coful/'
+        default: 'https://gitlab.com/boxdumps/_rmx1805_dump.git'
       DUMP_BRANCH:
         description: 'Dump branch'
         required: true
         default: 'user-12-S3RWBS32.125-29-2-4-3-3c754f-release-keys'
       DEVICE_BRAND:
-        description: 'motorola'
+        description: 'oppo'
         required: true
-        default: 'motorola'
+        default: 'oppo'
       CODENAME:
-        description: 'coful'
+        description: 'RMX1805'
         required: true
-        default: 'coful'
+        default: 'RMX1805'
       GIT_NAME:
         description: 'GitHub account user name'
         required: true
-        default: 'Swastik369'
+        default: 'noophyyo'
       GIT_EMAIL:
         description: 'GitHub account email adress'
         required: true
-        default: 'swastikpari123@gmail.com'
+        default: '88rifki@gmail.com'
 
 jobs:
   build:
